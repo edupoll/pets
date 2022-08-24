@@ -14,7 +14,7 @@ function App() {
     return [datestring.slice(0,4), datestring.slice(4,6), datestring.slice(6,8)].join("-");
   }
   useEffect(() => {
-    const key = "ZCU3%2FjB%2FlrpbQX9ou37B1eCj93xvvkjd5%2F609G4%2FxzVrGVTfFcfhBPhexAu%2Fw0APi53876d4eojm%2Bq8Eiq7ZaA%3D%3D";
+    const key =  process.env.REACT_APP_API_KEY;
     fetch(`http://apis.data.go.kr/1543061/abandonmentPublicSrvc/abandonmentPublic?serviceKey=${key}&_type=json&numOfRows=30`)
       .then(response => response.json())
       .then(json => {
