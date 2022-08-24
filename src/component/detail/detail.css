@@ -1,0 +1,37 @@
+.detail {
+    width: 60%;
+    padding-left : 15px;
+    padding-right : 30px;
+}
+
+.popfile {
+    width: 100%;
+    border-radius: 5%;
+    height: 600px;
+    object-fit: cover;
+}
+.title {
+    font-size : 1.2em;
+}
+
+.metadata {
+    
+    margin-top : 15px;
+    border-top: 1px solid lightgray;
+    padding-top: 10px;
+}
+
+.metadata ul {
+    list-style: none;
+    padding-left: 2px;
+}
+
+.metadata li {
+    margin-bottom: 15px;
+}
+
+.metadata ul {
+    border-top: 1px solid lightgray;
+    margin-top: 15px;
+    padding-top: 15px;
+}

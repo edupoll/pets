@@ -1,0 +1,17 @@
+.list {
+    display: flex;
+    flex-wrap : wrap;
+    gap: 3px;
+    
+}
+
+.detail+.list {
+    width: 40%;
+    overflow-y: scroll;
+    height: 75vh;
+    overflow-x: hidden;
+}
+
+.detail+.list .item {
+    width: 100%;
+}
